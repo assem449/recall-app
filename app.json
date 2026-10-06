@@ -20,9 +20,6 @@
       "predictiveBackGestureEnabled": false,
       "package": "com.example.recall"
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "scheme": "recall",
     "plugins": [
       "expo-router",
@@ -35,6 +32,10 @@
         }
       ],
       "expo-notifications"
+    ],
+    "platforms": [
+      "ios",
+      "android"
     ]
   }
 }
